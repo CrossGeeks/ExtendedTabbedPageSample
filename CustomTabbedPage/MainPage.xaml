@@ -1,0 +1,19 @@
+<controls:ExtendedTabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="CustomTabbedPage.MainPage"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             android:TabbedPage.BarItemColor="Gray"
+             android:TabbedPage.BarSelectedItemColor="#3C9BDF"
+             BarBackgroundColor="Black"
+             BackgroundColor="Black"
+             BarTextColor="Gray" 
+             xmlns:controls="clr-namespace:CustomTabbedPage">
+    <controls:ExtendedTabbedPage.Children>   
+        <ContentPage Title="Home" Icon="ic_home.png" BackgroundColor="White"/>
+        <ContentPage Title="Favorites" Icon="ic_favorite.png" BackgroundColor="White"/>
+        <ContentPage Title="App" Icon="app_logo_unselected.png" x:Name="home" BackgroundColor="White"/>
+        <ContentPage Title="Friends" Icon="ic_people.png" BackgroundColor="White"/>
+        <ContentPage Title="Settings" Icon="ic_settings.png" BackgroundColor="White"/>
+    </controls:ExtendedTabbedPage.Children>
+</controls:ExtendedTabbedPage>
