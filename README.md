@@ -11,4 +11,4 @@
 </p>
 
 
-Blog post: 
+Blog post: https://xamgirl.com/extending-tabbedpage-in-xamarin-forms/
