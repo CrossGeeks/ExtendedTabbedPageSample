@@ -190,7 +190,7 @@ namespace CustomTabbedPage.Droid
                     var item = menuView.GetChildAt(i) as BottomNavigationItemView;
                     if (item == null)
                         continue;
-                    item.SetShiftingMode(enableItemShiftMode);
+                    item.SetShifting(enableItemShiftMode);
                     item.SetChecked(item.ItemData.IsChecked);
                 }
                 menuView.UpdateMenuView();
